@@ -2,7 +2,7 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-
+sudo apt-get install -y libpcap-dev
 sudo apt-get install -y libcurl4-openssl-dev
 sudo apt-get install -y libssl-dev
 sudo apt-get install -y jq
@@ -71,6 +71,11 @@ echo "Don't forget to set up AWS credentials!"
 #create a tools folder in ~/
 mkdir ~/tools
 cd ~/tools/
+
+#install naabu
+echo "Installing Naabu"
+go get github.com/projectdiscovery/naabu/v2/cmd/naabu
+echo "done"
 
 #install aquatone
 echo "Installing Aquatone"
