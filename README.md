@@ -4,6 +4,7 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
  
 # Tools
 
+- naabu
 - dirsearch
 - JSParser
 - knockpy
